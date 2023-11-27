@@ -22,3 +22,14 @@
 # print(18 // 2)
 
 # print()
+
+# a = int(input())
+# b = int(input())
+# if a < b:
+#     print(a)
+# else:
+#     print(b)
+
+print(1700 % 4)
+print(2012 % 4)
+
