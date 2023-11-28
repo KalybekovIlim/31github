@@ -30,6 +30,6 @@
 # else:
 #     print(b)
 
-print(1700 % 4)
-print(2012 % 4)
+# print(1700 % 4)
+# print(2012 % 4)
 
