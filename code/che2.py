@@ -33,4 +33,16 @@
 # print(1700 % 4)
 # print(2012 % 4)
 
-print("12 day")
+# print("12 day")
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+if a == c or b == d:
+    print("YES")
+elif abs(a - c) <= 1 and abs(b - d) <= 1:
+    print('YES')
+elif (a - b) == (c - d) or (a + b) == (c + d):
+    print('YES')
+else:
+    print("NO")
